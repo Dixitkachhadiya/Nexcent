@@ -1,0 +1,221 @@
+@media only screen and (max-width : 768px){
+    .menu-bar{
+        display: none;
+    }
+    #p-text{
+        color: #00A9FF;
+        font-size: 25px;
+    }
+    #s-text{
+        color: #89CFF3;
+        font-size: 25px;
+    }
+    #OpenButton{
+        display: block;
+        font-size: 20px;
+        color: #4CAF4F;
+    }
+    #Buttons{
+        display: none;
+      }
+    #Signin-btn{
+        display: none;
+    }
+    #p1{
+        text-align: center;
+        font-size: 50px;
+        margin-top: 30px;
+    }
+    #p2{
+        text-align: center;
+        font-size: 50px;
+    }
+    #p3{
+        text-align: center;
+    }
+    #registerButton{
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    #img2{
+        width: 100%;
+        margin-top: 30px;
+    }
+    .slid-text{
+        font-size: 20px;
+    }
+    .owl-dots{
+        position: absolute;
+        content: "";
+        left: 50%;
+        bottom: -17px;
+        z-index: 999;
+        transform: translate(-50%, -50%);
+        color: #4CAF4F;
+      }
+      #logo1{
+        padding: 50px;
+        width: 100%;
+    }
+    #p8{
+        text-align: center;
+        font-size: 30px;
+    }
+    #p9{
+        text-align: center;
+        font-size: 14px;
+    }
+    #img3{
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        width: 100%;
+    } 
+    #Learn-Button{
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    #p10{
+        text-align: center;
+    }
+    #p11{
+        text-align: center;
+    }
+    #p12{
+        text-align: center;
+    }
+    #img5{
+        width: 100%;
+    }
+    #p16{
+        text-align: center;
+    }
+    #p17{
+        text-align: center;
+    }
+    #learn-more-btn{
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    #img6{
+        width: 100%;
+    }
+    #logo-img{
+        width: 100px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    #p21{
+        text-align: center;
+    }
+    #card-body{
+        width: 80%;
+        height: 170px;
+    }
+    #p24{
+        font-size: 16px;
+    }
+    #p25{
+        text-align: center;
+    }
+    #arrow-icon1{
+        margin-left: 8px;
+    }
+    #card-body{
+        height: 200px;
+    }
+    #p26{
+        font-size: 40px;
+    }
+}
+@media only screen and (max-width : 1024px){
+    .menu-bar{
+        display: none;
+    }
+    #p-text{
+        color: #00A9FF;
+        font-size: 25px;
+    }
+    #s-text{
+        color: #89CFF3;
+        font-size: 25px;
+    }
+    #OpenButton{
+        display: block;
+        font-size: 20px;
+        color: black;
+    }
+    #Buttons{
+        display: none;
+      }
+    #Signin-btn{
+        display: none;
+    }
+    #p1{
+        text-align: center;
+        margin-left: none;
+    }
+    #p2{
+        text-align: center;
+        margin-left: 0px;
+    }
+    #p3{
+        text-align: center;
+        margin-left: 0px;
+    }
+    #registerButton{
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    #img3{
+        width: 100%;
+    }
+    #Learn-Button{
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    #img5{
+        width: 100%;
+    }
+    #img6{
+        width: 100%;
+    }
+    #logo-img{
+        width: 50%;
+    }
+    #p24{
+        font-size: 16px;
+    }
+    #p25{
+        margin-left: 30px;
+    }
+    #arrow-icon1{
+        margin-left: 8px;
+    }
+}
+@media screen and (max-height: 450px) {
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+    }
+  }
+  @media screen and (max-width: 450px){
+    #p1{
+        margin-top: 20px;
+    }
+    .lide-Home{
+        min-height: 100px;
+    }
+    #logo1{
+        padding: 50px;
+        width: 100%;
+    }
+  }  

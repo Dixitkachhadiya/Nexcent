@@ -1,0 +1,704 @@
+* {
+  text-decoration: none;
+  list-style-type: none;
+  font-family: "inter";
+}
+
+a {
+  text-decoration: none;
+  padding-left: 20px;
+  color: black;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px 10%;
+  background: transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+  background-color: #F5F7FA;
+}
+
+.navbar {
+  display: inline-block;
+  font-size: 20px;
+  color: white;
+  margin-left: 35px;
+  padding: 10px;
+}
+
+.logo {
+  font-size: 35px;
+  color: black;
+  text-decoration: none;
+  font-weight: 600;
+  display: flex;
+}
+
+#p-text {
+  color: #00A9FF;
+}
+
+#s-text {
+  color: #89CFF3;
+}
+
+#Buttons {
+  color: #4CAF4F;
+  background-color: #F5F7FA;
+}
+
+#Signin-btn {
+  background-color: #4CAF4F;
+  color: white;
+}
+
+/* resposive menu */
+
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #EEF5FF;
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover,
+.overlay a:focus {
+  transform: scale(120%);
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+#OpenButton {
+  display: none;
+}
+
+#menu-items {
+  color: #00A9FF;
+  font-size: 20px;
+}
+
+.slide-Home {
+  width: 100%;
+  min-height: 499px;
+  position: relative;
+}
+
+#maindiv {
+  background-color: #F5F7FA;
+}
+
+#p1 {
+  font-size: 64px;
+  line-height: 50px;
+  font-weight: 600px;
+  margin-top: 160px;
+}
+
+#p2 {
+  font-size: 64px;
+  color: #4CAF4F;
+  line-height: 50px;
+  font-weight: 600px;
+}
+
+#p3 {
+  font-size: 16px;
+  color: #717171;
+  font-weight: 400;
+}
+
+#registerButton {
+  background-color: #4CAF4F;
+  color: white;
+  width: 128px;
+  height: 52px;
+  border-radius: 4px;
+  padding: 14px 32px 14px 32px;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+#img2 {
+  width: 70%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 0px;
+  flex-wrap: wrap;
+}
+
+.owl-dots {
+  position: absolute;
+  content: "";
+  left: 50%;
+  bottom: 10px;
+  z-index: 999;
+  transform: translate(-50%, -50%);
+  color: #4CAF4F;
+}
+
+.clints-main-div {
+  width: 100%;
+  margin-top: 40px;
+}
+
+#our-clients {
+  font-family: Inter;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 44px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+#clint-text {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+#clints-logo {
+  background-color: white;
+  border: none;
+  height: auto;
+}
+
+#logo1 {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  padding: 20px;
+}
+
+.card {
+  background-color: white;
+  border: none;
+}
+
+#p4 {
+  font-family: Inter;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 44px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+#comunity-section {
+  margin-top: 30px;
+}
+
+#p5 {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+
+}
+
+#icon1 {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 20%;
+  height: auto;
+}
+
+#p6 {
+  font-family: Inter;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: center;
+
+}
+
+#p7 {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #717171;
+
+}
+
+#details-div {
+  margin-top: 30px;
+}
+
+#p8 {
+  font-family: Inter;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 44px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+#p9 {
+
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+
+}
+
+#Learn-Button {
+  color: white;
+  background-color: #4CAF4F;
+
+}
+
+#invester-main-div {
+  background: #F5F7FA;
+  margin-top: 30px;
+}
+
+#p10 {
+  font-family: Inter;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 44px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 30px;
+
+}
+
+#p11 {
+  font-family: Inter;
+  font-size: 36px;
+  font-weight: 600;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #4CAF4F;
+}
+
+#p12 {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+
+}
+
+.div1 {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 30px;
+}
+
+#p13 {
+  font-family: Inter;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding: 10px;
+
+}
+
+#p14 {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+
+}
+
+#icon5 {
+  padding: 60px;
+}
+
+#img4 {
+  margin-left: 40px;
+}
+
+#p14 {
+  font-family: Inter;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 10px;
+}
+
+.div2 {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+
+#card1 {
+  border: none;
+  border-bottom: none;
+  background: #F5F7FA;
+}
+
+#p15 {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-left: 55px;
+  margin-top: -20px;
+}
+
+#div3 {
+  background: #F5F7FA;
+
+}
+
+#card2 {
+  border: none;
+  border-bottom: none;
+  background: #F5F7FA;
+  margin-top: 15px;
+}
+
+#security-section-div {
+  margin-top: 30px;
+}
+
+#p16 {
+  font-family: Inter;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 44px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 40px;
+
+}
+
+#p17 {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+
+}
+
+#learn-more-btn {
+  background-color: #4CAF4F;
+  color: white;
+}
+
+#customer-details-div {
+  margin-top: 30px;
+}
+
+#p18 {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+
+}
+
+#p19 {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #4CAF4F;
+}
+
+#p20 {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #89939E;
+
+}
+
+#logo-img {
+  width: 50%;
+}
+
+#card3 {
+  background-color: white;
+  border: none;
+  border-bottom: none;
+  position: relative;
+}
+
+#p21 {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #4CAF4F;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+#arrow-icon {
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 10px;
+  color: #4CAF4F;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+#p22 {
+  font-family: Inter;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 44px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+#marketing-div {
+  margin-top: 30px;
+}
+
+#p23 {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+#perent-img {
+  border: none;
+  border-bottom: none;
+  position: relative;
+  /* overflow: hidden; */
+}
+
+/* #perent-child{
+  background-color: gray;
+  border: none;
+  border-bottom: none;
+  position: absolute;
+  width: 317px;
+  height: 150px;
+  margin-left: 10px;
+  bottom: 0;
+  padding: 16px;
+
+} */
+#card-body {
+  background: #F5F7FA;
+  width: 70%;
+  border-radius: 8px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: -70px;
+  box-shadow: 0px 8px 16px 0px #ABBED166;
+  height: 178px;
+  padding: 16px;
+  gap: 16px;
+}
+
+#p24 {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #717171;
+
+}
+
+#p25 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #4CAF4F;
+  margin-left: 70px;
+  cursor: pointer;
+}
+
+#arrow-icon1 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 10px;
+  color: #4CAF4F;
+  margin-top: 0px;
+  cursor: pointer;
+}
+
+#details-main-div {
+  background: #F5F7FA;
+  margin-top: 30px;
+}
+
+#p26 {
+  font-family: Inter;
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 76px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #263238;
+}
+
+#Demo-btn {
+  background-color: #4CAF4F;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+#last-main-div {
+  background: #263238;
+  margin-top: 20px;
+}
+
+#card5 {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  background-color: #263238;
+  margin-top: 50px;
+}
+
+#p27 {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: white;
+
+}
+
+.insta-div {
+  background-color: gray;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+#path {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 7px;
+}
+
+#p28 {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: white;
+}
+
+#p29 {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: white;
+}
+
+#input1 {
+  background: gray;
+  height: 40px; 
+  border: none;
+  outline: none;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+  color: white;
+}
+::placeholder{
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: left;
+padding: 10px;
+
+}
+#cursor-btn{
+  background-color: gray;
+  color: white;
+  border-bottom-left-radius: 0px;
+  border-top-left-radius: 0px;
+  height: 40px;
+  border: none;
+  outline: none;
+}
